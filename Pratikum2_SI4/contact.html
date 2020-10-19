@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+</head>
+<body bgcolor="pink">
+	<h2>Contact Us</h2>
+	<form action="proses.php" method="get">
+		<table border="0">
+			<tr>
+				<td>Nama Lengkap</td> 
+				<td>: <input type="text" name="namalengkap" value ="Tulis nama disini"></td>
+			</tr>
+			<tr>
+				<td> E-mail</td> 
+ 				<td>: <input type="email" name="email"</td>
+			<tr>
+				<td>Password</td> 
+				<td>: <input type="Password" name="Password"></td>
+			</tr>
+			<tr>
+			<tr>
+				<td>Asal Kota</td> 
+				<td>: <select name="kota">
+			<option value="Jakarta">Jakarta</option>
+			<option value="Bandung" selected="selected">Bandung</option>
+			<option value="Surabaya">Surabaya</option>
+		</select></td>
+				<td>Alamat Lengkap</td>
+				<td>: <textarea name="alamat_lengkap" rows="5" cols="20">
+				Silahkan Isi Alamat Lengkap
+		</textarea></td>
+			<tr>
+				<td>Kesan</td>
+				<td>: <textarea rows="5" cols="20" type="text" name="Kesan" maxlength="50">
+				isi kesan anda
+		</textarea></td>
+			<tr>
+				<td>Saran</td>
+				<td>: <textarea rows="5" cols="20" type="text" name="Saran" required>
+				isi saran anda
+		</textarea></td>
+			<tr> <td>Rate Form</td>
+				<td>: <input type="range" name="points" min="0" max="10"></td>
+			</tr>
+			</tr>
+			<tr>
+				<td><input type="submit" name="Submit" value="Submit"></td>
+				<td><input type="reset" value="Reset"></td>
+			</tr>
+		</table>
+	</form>
+ 		<a href="pratikum.html">Home</a>
+
+	
+</body>
+</html>
